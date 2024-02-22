@@ -1,8 +1,8 @@
 ## Postgresql is a small library to simplify working with the postgresql database
 
-#### Get start
-
 ##### This package was created using the [pg](https://www.npmjs.com/package/pg) package!
+****
+#### Get start
 
 **Create connection**
 ```typescript
@@ -11,7 +11,7 @@ import {Connection, Table} from "postgresjs";
 const config {
     host: "host",
     port: "port",
-    user: "user"
+    user: "user",
     password: "password",
     database: "database"
 }
